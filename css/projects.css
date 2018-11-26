@@ -1,0 +1,13 @@
+.projects {
+    margin-top: 100px;
+}
+
+.project {
+    display: flex;
+    display: row;
+    justify-content: space-between;
+}
+
+.project-content {
+    width: 500px;
+}

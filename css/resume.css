@@ -1,0 +1,54 @@
+h5, h6 {
+    letter-spacing: 0.5px;
+}
+
+.resume {
+    margin-top: 100px;
+}
+
+.resume-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.resume-information {
+    align-items: center;
+}
+
+.resume-name p {
+    color: #AAAAAA;
+}
+
+.resume-goal {
+    width: 300px;
+    margin-left: auto;
+}
+
+.resume-work {
+    display: flex;
+    flex-basis: 0;
+    flex-grow: 2;
+    flex-direction: column;
+}
+
+.resume-other {
+    display: flex;
+    flex-basis: 0;
+    flex-grow: 1;
+    flex-direction: column;
+}
+
+.resume-item {
+    display: flex;
+    flex-direction: column;
+}
+
+.resume-item-date {
+    margin-right: 17px;
+    color: #AAAAAA;
+    font-weight: 400;
+}
+
+.resume-item-title {
+    font-weight: 700;
+}
