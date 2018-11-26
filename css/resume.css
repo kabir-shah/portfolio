@@ -24,17 +24,19 @@ h5, h6 {
     margin-left: auto;
 }
 
+.resume-content {
+    justify-content: space-between;
+}
+
 .resume-work {
     display: flex;
-    flex-basis: 0;
-    flex-grow: 2;
+    flex-basis: 500px;
     flex-direction: column;
 }
 
 .resume-other {
     display: flex;
-    flex-basis: 0;
-    flex-grow: 1;
+    flex-basis: 300px;
     flex-direction: column;
 }
 
