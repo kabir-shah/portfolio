@@ -1,18 +1,30 @@
 .head {
 	display: flex;
-    height: 90vh;
+	height: 95vh;
+	background: linear-gradient(45deg, hsla(0, 100%, 50%, 1), hsla(150, 100%, 50%, 1), hsla(225, 100%, 50%, 1), hsla(325, 100%, 50%, 1));
+	background: linear-gradient(45deg, hsla(225, 100%, 50%, 1), hsla(150, 100%, 50%, 1));
+	background-size: 400% 400%;
+	animation: gradient 10s ease infinite;
 }
 
 .head-content {
 	align-self: center;
 	margin-left: auto;
 	margin-right: auto;
+	color: #FFFFFF;
+}
+
+.projects {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	margin-top: 100px;
+    margin-bottom: 100px;
 }
 
 .project-row {
 	display: flex;
 	flex-direction: row;
-	flex-wrap: wrap;
 	justify-content: space-between;
 }
 
@@ -22,7 +34,6 @@
 	margin-right: 20px;
 }
 
-
 .project:last-of-type {
 	margin-left: 20px;
 	margin-right: 0;
@@ -30,7 +41,7 @@
 
 .project-img {
 	min-width: 300px;
-	height: 500px;
+	height: 300px;
 	margin-bottom: 0;
 	background-image: url("https://unsplash.com/photos/VuZkJXQwvtg/download?force=true");
 	background-size: cover;
@@ -51,7 +62,8 @@
 
 .about {
 	display: flex;
-    height: 90vh;
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 
 .about-content {
@@ -60,4 +72,27 @@
 
 .about-content p {
 	font-size: 31.85608257px;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+@media screen and (max-width: 700px) {
+	.project-row {
+		flex-direction: column;
+	}
+	
+	.project, .project:last-of-type {
+		margin-left: 0;
+		margin-right: 0;
+	}
 }
