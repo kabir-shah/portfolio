@@ -4,7 +4,7 @@
 	background: linear-gradient(45deg, hsla(0, 100%, 50%, 1), hsla(150, 100%, 50%, 1), hsla(225, 100%, 50%, 1), hsla(325, 100%, 50%, 1));
 	background: linear-gradient(45deg, hsla(225, 100%, 50%, 1), hsla(150, 100%, 50%, 1));
 	background-size: 400% 400%;
-	animation: gradient 10s ease infinite;
+	animation: gradient 5s ease infinite;
 }
 
 .head-content {
