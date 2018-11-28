@@ -1,3 +1,11 @@
+.nav-light li a {
+	color: #F7F7F7;
+}
+
+.nav-light li a:hover {
+	color: #FFFFFF;
+}
+
 .head {
 	display: flex;
 	height: 95vh;
