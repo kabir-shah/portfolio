@@ -17,7 +17,7 @@ h5, h6 {
 }
 
 .resume-name p {
-    color: #AAAAAA;
+    color: #666666;
 }
 
 .resume-content {
@@ -43,7 +43,7 @@ h5, h6 {
 
 .resume-item-date {
     margin-right: 17px;
-    color: #AAAAAA;
+    color: #666666;
     font-weight: 400;
 }
 
