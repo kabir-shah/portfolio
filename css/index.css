@@ -8,17 +8,17 @@
 
 .head {
 	display: flex;
-	height: 95vh;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	color: #FFFFFF;
 	background: linear-gradient(45deg, hsla(225, 100%, 50%, 1), hsla(150, 100%, 50%, 1));
 	background-size: 400% 400%;
 	animation: gradient 5s ease infinite;
 }
 
 .head-content {
-	align-self: center;
-	margin-left: auto;
-	margin-right: auto;
-	color: #FFFFFF;
+	padding: 17px;
 }
 
 .projects {
