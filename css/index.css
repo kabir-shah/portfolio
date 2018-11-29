@@ -6,6 +6,14 @@
 	color: #FFFFFF;
 }
 
+.nav-light .nav-active {
+	border-bottom: 1px solid #F7F7F7;
+}
+
+.nav-light .nav-active:hover {
+	border-bottom: 1px solid #FFFFFF;
+}
+
 .head {
 	display: flex;
 	justify-content: center;
