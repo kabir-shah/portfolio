@@ -21,6 +21,20 @@
 	padding: 17px;
 }
 
+.about {
+	display: flex;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.about-content {
+	align-self: center;
+}
+
+.about-content h3 {
+	font-family: "Source Serif Pro", Georgia, serif;
+}
+
 .projects {
 	display: flex;
 	flex-wrap: wrap;
@@ -50,8 +64,16 @@
 	min-width: 300px;
 	height: 300px;
 	margin-bottom: 0;
-	background-image: url("https://unsplash.com/photos/VuZkJXQwvtg/download?force=true");
+	background-position: center;
 	background-size: cover;
+}
+
+.project-img#floor-is-lava {
+	background-image: url("../img/floor-is-lava.png");
+}
+
+.project-img#fortnite-jump {
+	background-image: url("../img/fortnite-jump.png");
 }
 
 .project-body {
@@ -61,20 +83,6 @@
 
 .project-body h5 {
 	margin-bottom: 5px;
-}
-
-.about {
-	display: flex;
-    margin-top: 100px;
-    margin-bottom: 100px;
-}
-
-.about-content {
-	align-self: center;
-}
-
-.about-content p {
-	font-size: 31.85608257px;
 }
 
 @keyframes gradient {
