@@ -50,3 +50,33 @@ h5, h6 {
 .resume-item-title {
     font-weight: 700;
 }
+
+.resume-skill {
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.teamwork-flexibility {
+    width: 100%;
+    background-color: hsla(125, 100%, 90%, 1);
+}
+
+.html-css {
+    width: 90%;
+    background-color: hsla(200, 100%, 90%, 1);
+}
+
+.javascript-node {
+    width: 75%;
+    background-color: hsla(50, 100%, 90%, 1);
+}
+
+.python {
+    width: 60%;
+    background-color: hsla(35, 100%, 90%, 1);
+}
+
+.clang {
+    width: 45%;
+    background-color: hsla(0, 100%, 90%, 1);
+}
