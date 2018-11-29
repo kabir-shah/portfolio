@@ -11,7 +11,16 @@
 .project-content {
     display: flex;
     flex-direction: column;
-    flex-basis: 500px;
+    flex-basis: 600px;
+}
+
+.project-date {
+    color: #AAAAAA;
+}
+
+.project-media {
+    display: flex;
+    flex-direction: column;
 }
 
 .project-content, .project-media {
