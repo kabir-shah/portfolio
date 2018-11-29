@@ -4,10 +4,17 @@
 
 .project {
     display: flex;
-    display: row;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .project-content {
-    width: 500px;
+    display: flex;
+    flex-direction: column;
+    flex-basis: 500px;
+}
+
+.project-content, .project-media {
+    margin-left: auto;
+    margin-right: auto;
 }
