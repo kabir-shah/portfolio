@@ -9,6 +9,7 @@ h5, h6 {
 .resume-row {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .resume-information {
@@ -19,22 +20,17 @@ h5, h6 {
     color: #AAAAAA;
 }
 
-.resume-goal {
-    width: 300px;
-    margin-left: auto;
-}
-
 .resume-content {
     justify-content: space-between;
 }
 
-.resume-work {
+.resume-left {
     display: flex;
     flex-basis: 500px;
     flex-direction: column;
 }
 
-.resume-other {
+.resume-right {
     display: flex;
     flex-basis: 300px;
     flex-direction: column;
