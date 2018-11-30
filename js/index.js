@@ -23,7 +23,7 @@ window.addEventListener("scroll", detectNavLight);
 // Hidden secret
 var secret = false;
 window.addEventListener("click", function(event) {
-    if (!secret && event.detail === 3) {
+    if (!secret && event.detail === 5) {
         secret = true;
         
         document.body.innerHTML = `<div class="secret"><canvas></canvas><iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>`;
