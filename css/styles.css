@@ -93,8 +93,14 @@ a {
 	border-bottom: 1px solid #111111;
 }
 
+footer {
+	position: absolute;
+	left: 17px;
+}
+
 footer p {
 	margin-top: 34px;
+	color: #666666;
 }
 
 @media screen and (max-width: 700px) {
