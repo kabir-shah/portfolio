@@ -23,13 +23,15 @@ window.addEventListener("scroll", detectNavLight);
 // Hidden secret
 var secret = false;
 window.addEventListener("click", function(event) {
-    if (!secret && event.detail === 5) {
+    if (!secret && event.detail === 3) {
         secret = true;
         
-        document.body.innerHTML = '<div class="secret"><canvas></canvas><iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>';
-        
-        var canvas = document.querySelector(".secret canvas");
+        var canvas = document.createElement("canvas");
         var context = canvas.getContext("2d");
+        
+        canvas.classList.add("secret-canvas");
+        document.body.appendChild(canvas);
+        document.body.style.fontFamily = "Comic Sans MS";
         
         canvas.width = window.innerWidth;
         canvas.height = window.innerHeight;
@@ -45,6 +47,7 @@ window.addEventListener("click", function(event) {
             context.beginPath();
             context.moveTo(previousX, previousY);
             context.lineTo(event.offsetX, event.offsetY);
+            context.strokeStyle = "#FFFFFF";
             context.stroke();
             
             previousX = event.offsetX;
