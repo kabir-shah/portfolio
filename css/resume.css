@@ -51,6 +51,11 @@ h5, h6 {
     font-weight: 700;
 }
 
+.resume-item-role {
+    color: #666666;
+    font-style: italic;
+}
+
 .resume-skill {
     padding: 5px;
     border-radius: 5px;
