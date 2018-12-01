@@ -20,7 +20,7 @@ function detectNavLight() {
 detectNavLight();
 window.addEventListener("scroll", detectNavLight);
 
-// Hidden secret
+// Hidden secret: try triple-clicking!
 var secret = false;
 window.addEventListener("click", function(event) {
     if (!secret && event.detail === 3) {
@@ -31,12 +31,11 @@ window.addEventListener("click", function(event) {
         
         canvas.classList.add("secret-canvas");
         document.body.appendChild(canvas);
-        document.body.style.fontFamily = "Comic Sans MS";
         
         canvas.width = window.innerWidth;
         canvas.height = window.innerHeight;
         
-        var previousX, previousY;
+        var hue = 0, previousX, previousY;
         
         function placeDot(event) {
             if (!previousX) {
@@ -47,7 +46,8 @@ window.addEventListener("click", function(event) {
             context.beginPath();
             context.moveTo(previousX, previousY);
             context.lineTo(event.offsetX, event.offsetY);
-            context.strokeStyle = "#FFFFFF";
+            context.lineWidth = 10;
+            context.strokeStyle = "hsl(" + ((hue += 5) % 361) + ", 100%, 50%)";
             context.stroke();
             
             previousX = event.offsetX;
