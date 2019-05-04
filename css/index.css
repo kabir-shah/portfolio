@@ -77,6 +77,14 @@
 	background-size: cover;
 }
 
+.project-img#transformer {
+	background-image: url("../img/transformer-2.png");
+}
+
+.project-img#prison-escape {
+	background-image: url("../img/prison-escape.png");
+}
+
 .project-img#floor-is-lava {
 	background-image: url("../img/floor-is-lava.png");
 }
