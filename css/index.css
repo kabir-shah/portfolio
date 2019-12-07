@@ -20,8 +20,8 @@
 	align-items: center;
 	height: 100vh;
 	color: #FFFFFF;
-	background: linear-gradient(45deg, hsla(175, 100%, 50%, 1), hsla(225, 100%, 50%, 1), hsla(275, 100%, 50%, 1));
-	background-size: 400% 400%;
+	background: linear-gradient(45deg, hsla(150, 100%, 50%, 1), hsla(212.5, 100%, 50%, 1), hsla(275, 100%, 50%, 1));
+	background-size: 800% 800%;
 	animation: gradient 5s ease infinite;
 }
 
@@ -125,7 +125,7 @@
 	.project-row {
 		flex-direction: column;
 	}
-	
+
 	.project, .project:last-of-type {
 		margin-left: 0;
 		margin-right: 0;
