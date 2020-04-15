@@ -1,68 +1,81 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTF-8">
+	<head>
+		<meta charset="UTF-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta name="author" content="Kabir Shah">
 
-        <title>Kabir Shah</title>
+		<title>Kabir Shah</title>
 
-        <link href="https://fonts.googleapis.com/css?family=Source+Serif+Pro|Source+Sans+Pro:700" rel="stylesheet"/>
-        <link rel="stylesheet" href="./css/styles.css" type="text/css"/>
-        <link rel="stylesheet" href="./css/projects.css" type="text/css"/>
-    </head>
-    <body>
-        <ul class="nav">
-            <li><a href="./index.html">Home</a></li>
-            <li><a href="./Shah_about.html">About</a></li>
-            <li><a href="./Shah_projects.html" class="nav-active">Projects</a></li>
-            <li><a href="./resume.pdf" target="_blank">Resume</a></li>
-            <li><a href="./Shah_contact.html">Contact</a></li>
-        </ul>
+		<link href="https://fonts.googleapis.com/css?family=Source+Serif+Pro|Source+Sans+Pro:700" rel="stylesheet"/>
+		<link rel="stylesheet" href="./css/styles.css" type="text/css"/>
+		<link rel="stylesheet" href="./css/projects.css" type="text/css"/>
+	</head>
+	<body>
+		<ul class="nav">
+			<li><a href="./index.html">Home</a></li>
+			<li><a href="./Shah_about.html">About</a></li>
+			<li><a href="./Shah_projects.html" class="nav-active">Projects</a></li>
+			<li><a href="./Shah_work_experience.html">Work Experience</a></li>
+			<li><a href="./Shah_contact.html">Contact</a></li>
+		</ul>
 
-        <div class="projects container">
-            <div class="project">
-                <div class="project-content">
-                    <h3>Compound Machine Project</h3>
-                    <p class="project-date">Principles of Engineering, August 2019 - September 2019</p>
-                    <p>The goal of this project was to create a compound machine that would be useful to an alien species. My team and I brainstormed a problem: it can be hard to climb up a slide on a playground after riding it. As a result, we designed a compound machine that works by exposing a wheel that a user can spin. This wheel drives an axle, which drives a simple gear train, which spins a pulley, pulling the rider of the slide back up the inclined plane. My role in the project involved designing the original idea and implementing it using VEX parts. Specifically, I created the original sketches, laying out how different simple machines could interact. Then, we split up into pairs within the team that would each implement two simple machines. After working with a teammate to create the gear train and the wheel and axle, I worked with the rest of the team to connect the parts. However, we ran into an obstacle when attaching the “pulley” — we realized that it was resembling a wheel more than a pulley, as it simply winded up a string. This meant that we did not meet the constraint of having four types of simple machines. I took the lead and suggested moving the wheel below the base of the gear train so that it would change the direction of force and act as a true pulley. Throughout the project, I was able to delve deeper into mechanical engineering, an area I have an interest in but have not yet explored thoroughly; I learned about mechanical advantage and the design process behind compound machines. In the end, my teammates and I worked well together by distributing work evenly, and I was able to demonstrate leadership and quick-thinking when we came across an unexpected challenge. <a href="https://docs.google.com/document/d/1eqwfr13zEHkuFWLmAfmA26uI9cKXycFBUFmCrXjEn94/edit?usp=sharing">View the documentation to learn more.</a></p>
-                </div>
-                <div class="project-media">
-                    <img src="./img/infinity-slide-1.jpg" width="300"/>
-                    <img src="./img/infinity-slide-2.jpg" width="300"/>
-                </div>
-            </div>
+		<div class="projects container">
+			<div class="project">
+				<div class="project-content">
+					<h3>Solar-Hydrogen Alternative Energy Vehicle</h3>
+					<p class="project-date">Principles of Engineering, October 2019 - November 2019</p>
+					<p>The goal of this project was to create a vehicle that would be powered by alternative energy sources, namely solar panels and hydrogen fuel cells, to see which combination and design would work the best for a client. In the end, we needed a strong and fast vehicle that allowed different configurations of energy sources and circuit types. My team and I began by brainstorming potential designs. I proposed a design that was in the shape of a rectangular prism with an open bottom to hold the wheel and axle machine, allowing it to either carry a load underneath or have a clear path for air to flow through. On top, there was space for the motor, breadboard, and energy sources. After we got the design finalized, we split up the work, and I worked on making a functioning series and parallel circuit that worked with a switch mounted on the breadboard. However, when connecting the energy sources to the main chassis, we ran into a problem: hydrogen cells and solar panels would not mount interchangeably. As a result, the team and I brainstormed a solution: small poles that held the hydrogen cells securely, but also had a place for screws on top for solar panels. By the end I was able to comfortably design series and parallel circuits and explain the different mechanisms that made up our vehicle. In addition, I learned about energy and power, specifically the tradeoff and balance between force and distance. In conclusion, we followed the engineering design process to iterate on our design and separate the work to build it within the deadline, and I learned a lot about configurable designs and different aspects of engineering in the process. <a href="https://docs.google.com/document/d/1YmEg3Oh-OVUySMQKGNa0DWEKZpFPfPPZzbIuZtLZ3PI/edit?usp=sharing" target="_blank">View the documentation to learn more.</a></p>
+				</div>
+				<div class="project-media">
+					<img src="./img/vehicle-1.png" width="300"/>
+					<img src="./img/vehicle-2.png" width="300"/>
+					<img src="./img/vehicle-3.jpg" width="300"/>
+				</div>
+			</div>
 
-            <div class="project">
-                <div class="project-content">
-                    <h3>Image Manipulation Project</h3>
-                    <p class="project-date">Computer Science Principles, February 2019 - March 2019</p>
-                    <p>The goal of this project was to make software that manipulates input images in some way that is beneficial to a developer client looking for different ways to transform images. As a result, my partner and I for this project brainstormed “The Transformer”, a general tool that comes with predefined transformations on images and is easily extensible to allow for more. We came up with a list of potential transformations, including converting images to the style of Vincent Van Gogh, converting images to images made up of Minecraft blocks, and making pixel art from images. My role in the project was to develop the transform that turns landscape images into paintings in the style of Vincent Van Gogh. To get started, I looked into artificial intelligence techniques and learned a lot about Generative Adversarial Networks. I created my own implementation of one in Python using the Numpy, Keras, and Tensorflow libraries. One challenge that I faced was implementing the model and optimizing hyperparameters for it. I had a lot of trouble when dimensions didn’t work out because of the 5 dimensional matrices that I was working with, but eventually got it after researching convolutional neural networks and understanding how they work. Teamwork was required in this project, as the project wouldn’t be called the Transformer without the Minecraft transform created by my partner. I took the lead in the project and created most of the documentation, and, in addition, I distributed roles and tasks between me and my partner to get our modules connected and working together in the end. <a href="https://docs.google.com/document/d/13wYG18P2NYIi_PGDrgQmSY7dYRZlRX-B2qSr_Qr5CoM/edit?usp=sharing">View the documentation to learn more.</a></p>
-                </div>
-                <div class="project-media">
-                    <img src="./img/transformer-1.png" width="300"/>
-                    <img src="./img/transformer-2.png" width="300"/>
-                </div>
-            </div>
+			<div class="project">
+				<div class="project-content">
+					<h3>Compound Machine Project</h3>
+					<p class="project-date">Principles of Engineering, August 2019 - September 2019</p>
+					<p>The goal of this project was to create a compound machine that would be useful to an alien species. My team and I brainstormed a problem: it can be hard to climb up a slide on a playground after riding it. As a result, we designed a compound machine that works by exposing a wheel that a user can spin. This wheel drives an axle, which drives a simple gear train, which spins a pulley, pulling the rider of the slide back up the inclined plane. My role in the project involved designing the original idea and implementing it using VEX parts. Specifically, I created the original sketches, laying out how different simple machines could interact. Then, we split up into pairs within the team that would each implement two simple machines. After working with a teammate to create the gear train and the wheel and axle, I worked with the rest of the team to connect the parts. However, we ran into an obstacle when attaching the “pulley” — we realized that it was resembling a wheel more than a pulley, as it simply winded up a string. This meant that we did not meet the constraint of having four types of simple machines. I took the lead and suggested moving the wheel below the base of the gear train so that it would change the direction of force and act as a true pulley. Throughout the project, I was able to delve deeper into mechanical engineering, an area I have an interest in but have not yet explored thoroughly; I learned about mechanical advantage and the design process behind compound machines. In the end, my teammates and I worked well together by distributing work evenly, and I was able to demonstrate leadership and quick-thinking when we came across an unexpected challenge. <a href="https://docs.google.com/document/d/1eqwfr13zEHkuFWLmAfmA26uI9cKXycFBUFmCrXjEn94/edit?usp=sharing" target="_blank">View the documentation to learn more.</a></p>
+				</div>
+				<div class="project-media">
+					<img src="./img/infinity-slide-1.jpg" width="300"/>
+					<img src="./img/infinity-slide-2.jpg" width="300"/>
+				</div>
+			</div>
 
-            <div class="project">
-                <div class="project-content">
-                    <h3>Scratch Project</h3>
-                    <p class="project-date">Computer Science Principles, August 2018 - September 2018</p>
-                    <p>The goal of this project was to make a game that progressively increases in difficulty and is fun to play for a user. My partner and I decided to create a game called “The Floor is Lava”, a game that infinitely increases in difficulty using various techniques in order to capture and preserve the attention of the user. My role in the project was both planning and programming. Every work day consisted of partner programming where one person would give a design for the structure of a program, while another would implement it using code. We were able to propose different ideas to solve problems, and worked with each other to find an efficient solution. I learned how to use Scratch to create games, and how to partner program effectively to create a polished final product. We had to overcome various challenges while creating the game. For example, characters occasionally fell through blocks due to the faulty default collision detection. As a result, my partner and I devised a manual collision detection method. Teamwork was crucial to this project, and I was able to develop skills in working collaboratively on programming projects instead of working solo. <a href="https://docs.google.com/document/d/1dcdBwFx2ppOLvU_EoCNaKrQXJRb5UuRty-K9wvpdNXs/edit?usp=sharing">View the documentation to learn more.</a></p>
-                </div>
-                <div class="project-media">
-                    <img src="./img/floor-is-lava.png" width="300"/>
-                    <div id="scratch-embed"></div>
-                </div>
-            </div>
-        </div>
+			<div class="project">
+				<div class="project-content">
+					<h3>Image Manipulation Project</h3>
+					<p class="project-date">Computer Science Principles, February 2019 - March 2019</p>
+					<p>The goal of this project was to make software that manipulates input images in some way that is beneficial to a developer client looking for different ways to transform images. As a result, my partner and I for this project brainstormed “The Transformer”, a general tool that comes with predefined transformations on images and is easily extensible to allow for more. We came up with a list of potential transformations, including converting images to the style of Vincent Van Gogh, converting images to images made up of Minecraft blocks, and making pixel art from images. My role in the project was to develop the transform that turns landscape images into paintings in the style of Vincent Van Gogh. To get started, I looked into artificial intelligence techniques and learned a lot about Generative Adversarial Networks. I created my own implementation of one in Python using the Numpy, Keras, and Tensorflow libraries. One challenge that I faced was implementing the model and optimizing hyperparameters for it. I had a lot of trouble when dimensions didn’t work out because of the 5 dimensional matrices that I was working with, but eventually got it after researching convolutional neural networks and understanding how they work. Teamwork was required in this project, as the project wouldn’t be called the Transformer without the Minecraft transform created by my partner. I took the lead in the project and created most of the documentation, and, in addition, I distributed roles and tasks between me and my partner to get our modules connected and working together in the end. <a href="https://docs.google.com/document/d/13wYG18P2NYIi_PGDrgQmSY7dYRZlRX-B2qSr_Qr5CoM/edit?usp=sharing" target="_blank">View the documentation to learn more.</a></p>
+				</div>
+				<div class="project-media">
+					<img src="./img/transformer-1.png" width="300"/>
+					<img src="./img/transformer-2.png" width="300"/>
+				</div>
+			</div>
 
-        <footer>
-            <p>&copy; Kabir Shah</p>
-        </footer>
+			<div class="project">
+				<div class="project-content">
+					<h3>Scratch Project</h3>
+					<p class="project-date">Computer Science Principles, August 2018 - September 2018</p>
+					<p>The goal of this project was to make a game that progressively increases in difficulty and is fun to play for a user. My partner and I decided to create a game called “The Floor is Lava”, a game that infinitely increases in difficulty using various techniques in order to capture and preserve the attention of the user. My role in the project was both planning and programming. Every work day consisted of partner programming where one person would give a design for the structure of a program, while another would implement it using code. We were able to propose different ideas to solve problems, and worked with each other to find an efficient solution. I learned how to use Scratch to create games, and how to partner program effectively to create a polished final product. We had to overcome various challenges while creating the game. For example, characters occasionally fell through blocks due to the faulty default collision detection. As a result, my partner and I devised a manual collision detection method. Teamwork was crucial to this project, and I was able to develop skills in working collaboratively on programming projects instead of working solo. <a href="https://docs.google.com/document/d/1dcdBwFx2ppOLvU_EoCNaKrQXJRb5UuRty-K9wvpdNXs/edit?usp=sharing" target="_blank">View the documentation to learn more.</a></p>
+				</div>
+				<div class="project-media">
+					<img src="./img/floor-is-lava.png" width="300"/>
+					<div id="scratch-embed"></div>
+				</div>
+			</div>
+		</div>
 
-        <script type="text/javascript" src="./js/projects.js"></script>
-    </body>
+		<footer>
+			<p>&copy; Kabir Shah</p>
+		</footer>
+
+		<script type="text/javascript" src="./js/projects.js"></script>
+	</body>
 </html>
