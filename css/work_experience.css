@@ -1,3 +1,17 @@
 .work-experience {
-	margin-top: 150px;
+   margin-top: 150px;
+}
+
+.work-experience-images {
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   gap: 16px;
+}
+
+.work-experience-images > img {
+   width: 400px;
+   max-width: 80%;
+   height: auto;
+   aspect-ratio: 1;
 }

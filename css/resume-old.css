@@ -1,0 +1,87 @@
+h5, h6 {
+    letter-spacing: 0.5px;
+}
+
+.resume {
+    margin-top: 150px;
+}
+
+.resume-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.resume-information {
+    align-items: center;
+}
+
+.resume-name p {
+    color: #666666;
+}
+
+.resume-content {
+    justify-content: space-between;
+}
+
+.resume-left {
+    display: flex;
+    flex-basis: 500px;
+    flex-direction: column;
+}
+
+.resume-right {
+    display: flex;
+    flex-basis: 300px;
+    flex-direction: column;
+}
+
+.resume-item {
+    display: flex;
+    flex-direction: column;
+}
+
+.resume-item-date {
+    margin-right: 17px;
+    color: #666666;
+    font-weight: 400;
+}
+
+.resume-item-title {
+    font-weight: 700;
+}
+
+.resume-item-role {
+    color: #666666;
+    font-style: italic;
+}
+
+.resume-skill {
+    padding: 5px;
+    border-radius: 3px;
+}
+
+.teamwork-flexibility {
+    width: 100%;
+    background-color: hsla(125, 100%, 95%, 1);
+}
+
+.html-css {
+    width: 90%;
+    background-color: hsla(200, 100%, 95%, 1);
+}
+
+.javascript-node {
+    width: 75%;
+    background-color: hsla(50, 100%, 95%, 1);
+}
+
+.python {
+    width: 70%;
+    background-color: hsla(20, 100%, 95%, 1);
+}
+
+.clang {
+    width: 50%;
+    background-color: hsla(0, 100%, 95%, 1);
+}
